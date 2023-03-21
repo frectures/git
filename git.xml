@@ -1,0 +1,440 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70216" creator="Ipe 7.2.17">
+<info created="D:20190322140725" modified="D:20201101175939"/>
+<ipestyle name="basic">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/ptarc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fptarc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<pen name="heavier" value="0.8"/>
+<pen name="fat" value="1.2"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="red" value="1 0 0"/>
+<color name="green" value="0 1 0"/>
+<color name="blue" value="0 0 1"/>
+<color name="yellow" value="1 1 0"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="gray" value="0.745"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<anglesize name="90 deg" value="90"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<opacity name="10%" value="0.1"/>
+<opacity name="30%" value="0.3"/>
+<opacity name="50%" value="0.5"/>
+<opacity name="75%" value="0.75"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" matrix="1 0 0 1 32 16" transformations="translations" pos="64 768" stroke="black" type="label" width="92.993" height="8.307" depth="2.32" halign="center" valign="baseline" size="large">Working directory</text>
+<text matrix="1 0 0 1 32 16" transformations="translations" pos="256 768" stroke="black" type="label" width="63.733" height="8.174" depth="2.32" halign="center" valign="baseline" size="large">Staging area</text>
+<text matrix="1 0 0 1 32 16" transformations="translations" pos="448 768" stroke="black" type="label" width="37.78" height="8.174" depth="2.32" halign="center" valign="baseline" size="large">History</text>
+<path stroke="black">
+0 768 m
+576 768 l
+</path>
+<path stroke="black" dash="dotted">
+192 800 m
+192 384 l
+</path>
+<path stroke="black" dash="dotted">
+384 800 m
+384 384 l
+</path>
+<path matrix="1 0 0 1 0 -32" stroke="black" arrow="normal/normal">
+96 736 m
+280 736 l
+</path>
+<text matrix="1 0 0 1 -288 68" transformations="translations" pos="480 640" stroke="black" type="label" width="94.146" height="6.092" depth="2.21" halign="center" valign="baseline">\texttt{git add readme.txt}</text>
+<text matrix="1 0 0 1 -384 132" transformations="translations" pos="480 640" stroke="black" type="label" width="41.843" height="6.922" depth="2.21" halign="center" valign="baseline">\texttt{project/}</text>
+<text matrix="1 0 0 1 -192 132" transformations="translations" pos="480 640" stroke="black" type="label" width="94.146" height="6.922" depth="2.21" halign="center" valign="baseline">\texttt{project/.git/index}</text>
+<text matrix="1 0 0 1 0 132" transformations="translations" pos="480 640" stroke="black" type="label" width="94.146" height="6.922" depth="2.21" halign="center" valign="baseline">\texttt{project/.git/refs/}</text>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+288 672 m
+480 672 l
+</path>
+<text matrix="1 0 0 1 -128 -60" transformations="translations" pos="480 640" stroke="black" type="label" width="52.303" height="6.092" depth="2.21" halign="center" valign="baseline">\texttt{git commit}</text>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+480 512 m
+288 512 l
+</path>
+<text matrix="1 0 0 1 -88 -220" transformations="translations" pos="480 640" stroke="black" type="label" width="62.764" height="6.092" depth="2.21" valign="baseline">\texttt{git checkout}</text>
+<path matrix="1 0 0 1 0 -224" stroke="black" arrow="normal/normal">
+288 640 m
+96 640 l
+</path>
+<text matrix="1 0 0 1 -80 -156" transformations="translations" pos="480 640" stroke="black" type="label" width="83.685" height="6.092" depth="2.21" valign="baseline">\texttt{git reset --hard}</text>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+288 576 m
+96 576 l
+</path>
+<text matrix="1 0 0 1 -80 -124" transformations="translations" pos="480 640" stroke="black" type="label" width="88.916" height="6.092" depth="2.21" valign="baseline">\texttt{git reset --mixed}</text>
+<text matrix="1 0 0 1 -80 -92" transformations="translations" pos="480 640" stroke="black" type="label" width="83.685" height="6.092" depth="2.21" valign="baseline">\texttt{git reset --soft}</text>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+480 576 m
+288 576 l
+</path>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+480 608 m
+288 608 l
+</path>
+<path matrix="1 0 0 1 -64 -96" stroke="black" arrow="normal/normal">
+544 640 m
+448 640 l
+</path>
+<path matrix="1 0 0 1 0 -32" stroke="black" arrow="normal/normal">
+480 736 m
+296 736 l
+</path>
+<text matrix="1 0 0 1 -96 68" transformations="translations" pos="480 640" stroke="black" type="label" width="130.759" height="6.092" depth="2.21" halign="center" valign="baseline">\texttt{git reset HEAD readme.txt}</text>
+<path matrix="1 0 0 1 0 -32" stroke="black" arrow="normal/normal">
+288 704 m
+96 704 l
+</path>
+<text matrix="1 0 0 1 -288 36" transformations="translations" pos="480 640" stroke="black" type="label" width="115.067" height="6.092" depth="2.21" halign="center" valign="baseline">\texttt{git restore readme.txt}</text>
+<path matrix="1 0 0 1 16 -96" stroke="black">
+480 672 m
+8 0 0 -8 480 664 488 664 a
+</path>
+<path matrix="1 0 0 1 16 -96" stroke="black">
+496 624 m
+8 0 0 -8 496 632 488 632 a
+</path>
+<path matrix="1 0 0 1 16 -96" stroke="black">
+488 616 m
+8 0 0 -8 496 616 496 624 a
+</path>
+<path matrix="1 0 0 1 16 -96" stroke="black">
+488 584 m
+8 0 0 -8 480 584 480 576 a
+</path>
+<path matrix="1 0 0 1 0 -96" stroke="black">
+504 664 m
+504 632 l
+</path>
+<path matrix="1 0 0 1 0 -96" stroke="black">
+504 616 m
+504 584 l
+</path>
+<text matrix="1 0 0 1 0 -92" transformations="translations" pos="520 624" stroke="black" type="label" width="35.755" height="6.918" depth="0" valign="baseline">modifies</text>
+<text matrix="1 0 0 1 0 -104" transformations="translations" pos="520 624" stroke="black" type="label" width="73.225" height="6.088" depth="0" valign="baseline">\texttt{branch-&gt;commit}</text>
+<text matrix="1 0 0 1 0 -204" transformations="translations" pos="520 624" stroke="black" type="label" width="35.755" height="6.918" depth="0" valign="baseline">modifies</text>
+<text matrix="1 0 0 1 0 -216" transformations="translations" pos="520 624" stroke="black" type="label" width="62.764" height="6.088" depth="0" valign="baseline">\texttt{HEAD-&gt;branch}</text>
+<text matrix="1 0 0 1 -288 -320" transformations="translations" pos="480 640" stroke="black" type="label" width="36.612" height="6.088" depth="0" valign="baseline">\texttt{16cf446}</text>
+<text matrix="1 0 0 1 -240 -320" transformations="translations" pos="480 640" stroke="black" type="label" width="36.612" height="6.092" depth="2.21" valign="baseline">\texttt{pom.xml}</text>
+<text matrix="1 0 0 1 -288 -336" transformations="translations" pos="480 640" stroke="black" type="label" width="36.612" height="6.088" depth="0" valign="baseline">\texttt{c444b2b}</text>
+<text matrix="1 0 0 1 -240 -336" transformations="translations" pos="480 640" stroke="black" type="label" width="115.067" height="6.922" depth="2.21" valign="baseline">\texttt{src/main/java/Foo.java}</text>
+<text matrix="1 0 0 1 -288 -352" transformations="translations" pos="480 640" stroke="black" type="label" width="36.612" height="6.088" depth="0" valign="baseline">\texttt{34b1b1e}</text>
+<text matrix="1 0 0 1 -240 -352" transformations="translations" pos="480 640" stroke="black" type="label" width="135.989" height="6.922" depth="2.21" valign="baseline">\texttt{src/test/java/FooTest.java}</text>
+<text matrix="1 0 0 1 -288 -304" transformations="translations" pos="480 640" stroke="black" type="label" width="21.918" height="6.918" depth="0" valign="baseline">Hash</text>
+<text matrix="1 0 0 1 -240 -304" transformations="translations" pos="480 640" stroke="black" type="label" width="39.712" height="6.918" depth="0" valign="baseline">Filename</text>
+<text matrix="1 0 0 1 -16 -300" transformations="translations" pos="480 640" stroke="black" type="label" width="20.921" height="6.088" depth="0" halign="center" valign="baseline">\texttt{HEAD}</text>
+<text matrix="1 0 0 1 -16 -332" transformations="translations" pos="480 640" stroke="black" type="label" width="31.382" height="6.088" depth="0" halign="center" valign="baseline">\texttt{branch}</text>
+<text matrix="1 0 0 1 -16 -364" transformations="translations" pos="480 640" stroke="black" type="label" width="31.382" height="6.088" depth="0" halign="center" valign="baseline">\texttt{commit}</text>
+<text matrix="1 0 0 1 -16 -396" transformations="translations" pos="480 640" stroke="black" type="label" width="20.921" height="5.515" depth="0" halign="center" valign="baseline">\texttt{tree}</text>
+<text matrix="1 0 0 1 -16 -428" transformations="translations" pos="480 640" stroke="black" type="label" width="20.921" height="6.088" depth="0" halign="center" valign="baseline">\texttt{blob}</text>
+<path matrix="1 0 0 1 48 -80" stroke="black">
+400 432 m
+400 416 l
+432 416 l
+432 432 l
+h
+</path>
+<path matrix="1 0 0 1 48 -112" stroke="black">
+400 432 m
+400 416 l
+432 416 l
+432 432 l
+h
+</path>
+<path matrix="1 0 0 1 48 -144" stroke="black">
+400 432 m
+400 416 l
+432 416 l
+432 432 l
+h
+</path>
+<path matrix="1 0 0 1 48 -176" stroke="black">
+400 432 m
+400 416 l
+432 416 l
+432 432 l
+h
+</path>
+<path matrix="1 0 0 1 48 -208" stroke="black">
+400 432 m
+400 416 l
+432 416 l
+432 432 l
+h
+</path>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+464 432 m
+464 416 l
+</path>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+464 400 m
+464 384 l
+</path>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+464 368 m
+464 352 l
+</path>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+464 336 m
+464 320 l
+</path>
+<text matrix="1 0 0 1 -8 -412" transformations="translations" pos="480 640" stroke="black" type="label" width="4.981" height="7.472" depth="0" halign="center" valign="baseline">*</text>
+<path matrix="1 0 0 1 0 -96" stroke="black" arrow="normal/normal">
+480 348 m
+512 352
+512 336
+480 340 c
+</path>
+<path matrix="1 0 0 1 0 -64" stroke="black" arrow="normal/normal">
+480 348 m
+512 352
+512 336
+480 340 c
+</path>
+<text matrix="1 0 0 1 28 -396" transformations="translations" pos="480 640" stroke="black" type="label" width="4.981" height="7.472" depth="0" halign="center" valign="baseline">*</text>
+<text matrix="1 0 0 1 28 -364" transformations="translations" pos="480 640" stroke="black" type="label" width="4.981" height="7.472" depth="0" halign="center" valign="baseline">*</text>
+<text matrix="1 0 0 1 -40 -364" transformations="translations" pos="480 640" stroke="black" type="label" width="36.612" height="6.088" depth="0" halign="right" valign="baseline">\texttt{4f20a9b}</text>
+<text matrix="1 0 0 1 -40 -396" transformations="translations" pos="480 640" stroke="black" type="label" width="36.612" height="6.088" depth="0" halign="right" valign="baseline">\texttt{6194e38}</text>
+<text matrix="1 0 0 1 36 -364" transformations="translations" pos="480 640" stroke="black" type="label" width="36.612" height="6.088" depth="0" valign="baseline">\texttt{501c7d3}</text>
+<text matrix="1 0 0 1 -40 -428" transformations="translations" pos="480 640" stroke="black" type="label" width="36.612" height="6.088" depth="0" halign="right" valign="baseline">\texttt{16cf446}</text>
+<path stroke="black" arrow="normal/normal">
+384 640 m
+192 640 l
+</path>
+<text matrix="1 0 0 1 -192 4" transformations="translations" pos="480 640" stroke="black" type="label" width="135.989" height="6.092" depth="2.21" halign="center" valign="baseline">\texttt{git rm --cached readme.txt}</text>
+</page>
+</ipe>
